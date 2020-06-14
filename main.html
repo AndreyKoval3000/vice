@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel=stylesheet href="css/main_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vice</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <button id="menu_btn"></button>
+            <p class="logo">S</p>
+            <h3>Sam Sepiol</h3>
+        </div>
+    </header>
+    <main>
+        <div id="messages" class="base_messages">
+            <br>
+            <div class="people">
+                <p class="logo">S</p>
+                <h3>Sam Sepiol</h3>
+                <h6>was online yesterday</h6>
+            </div>
+            <br>
+            <div class="people">
+                <p class="logo">R</p>
+                <h3>Mr. Robot</h3>
+                <h6>online</h6>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="empty"></div>
+        <div class="write_letter">
+            <input>
+            <button id="send_btn"></button>
+        </div>
+    </footer>
+    <script>
+        "use strict"
+        menu_btn.addEventListener("click",fOpen)
+        function fOpen() {
+            messages.classList.toggle("menu_open")
+        }
+    </script>
+</body>
+</html>
