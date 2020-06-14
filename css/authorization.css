@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-size: 22px;
+    font-family: Roboto;
+    margin: 0;
+    background-color: #E1E0E1;
+}
+
+main{
+    display: block;
+    margin:auto;
+    margin-top: 15%;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 25px;
+    width: 340px;
+    background-color: #CECECE;
+    border: 1px solid #BAB6B9;
+    border-radius: 20px;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 18px;
+    color: #1F1E1E;
+    background-color: #C4C4C4;
+    padding: 10px;
+    border: 1px solid #BAB6B9;
+    border-radius: 22pt;
+}
+
+.btn:hover{
+    text-decoration: none;
+    font-size: 18px;
+    color: #C4C4C4;
+    background-color: #6D6C6C;
+    padding: 10px;
+    border: 1px solid #BAB6B9;
+    border-radius: 22pt;
+}
+
+
+.input input{
+    width:90%;
+    height:30px;
+    border-radius: 10px;
+    border: 1px solid #6D6C6C;
+    background-color: #6D6C6C;
+    color: white;
+}
+
+#input{
+    margin-bottom: 40px;
+}
+
+.input h3{
+    margin-top: 40px;
+    font-weight: normal;
+    color: #4D4D4D;
+}
